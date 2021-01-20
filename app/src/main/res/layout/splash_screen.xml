@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fefffe">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="54dp"
+        android:src="@drawable/splash"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="-17dp"
+        android:layout_marginEnd="48dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="BANKING SYSTEM"
+        android:textColor="@color/myFont"
+        android:textSize="45sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/designed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/shaded"
+            android:gravity="center"
+            android:text="An Internship Project at Sparks Foundation"
+            android:textColor="@color/myFont"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Created By : Jaan Nishar Akhter"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/sign"
+            android:textColor="@color/myFont"
+            android:layout_marginTop="50dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

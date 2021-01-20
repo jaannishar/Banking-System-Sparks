@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome,"
+        android:textColor="@color/myFont"
+        android:fontFamily="@font/maintext"
+        android:layout_marginLeft="15dp"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="-10dp"
+        android:fontFamily="@font/maintext"
+        android:textColor="@color/myFont"
+        android:textSize="15sp"
+        android:text="Happy to see you Again, Hope you are doing good "/>
+
+    <ImageView
+        android:id="@+id/transaction_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="410dp"
+        android:src="@drawable/transaction" />
+
+    <Button
+        android:id="@+id/view_users"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="15dp"
+        android:text="View List of All Users"
+        android:textColor="@color/myFont"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/shaded"
+        android:background="@drawable/rounded_button"
+        >
+    </Button>
+    <Button
+        android:id="@+id/tran_his"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="15dp"
+        android:text="View Transaction History"
+        android:textAllCaps="false"
+        android:textColor="@color/myFont"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:shadowColor="#f9bd25"
+        android:fontFamily="@font/shaded"
+        android:background="@drawable/rounded_button"
+        >
+    </Button>
+</LinearLayout>
